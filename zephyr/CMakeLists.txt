@@ -2,14 +2,14 @@
 zephyr_include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../include)
 
 # Create the library
-zephyr_library_named(__MODULE_NAME__)
+zephyr_library_named(app_wifi_lib)
 
 zephyr_library_sources(
-  ${CMAKE_CURRENT_SOURCE_DIR}/../src/__MODULE_NAME__.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/../src/app_wifi_lib.c
 )
 
 # Optionally only build/link if config is enabled
-if(CONFIG___MODULE_NAME_UPPER__)
-  target_link_libraries(app PRIVATE __MODULE_NAME__)
+if(CONFIG_APP_WIFI_LIB)
+  target_link_libraries(app PRIVATE app_wifi_lib)
 endif()
 

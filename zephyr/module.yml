@@ -1,4 +1,4 @@
-name: __MODULE_NAME__
+name: app_wifi_lib
 
 build:
   cmake: zephyr

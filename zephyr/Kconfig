@@ -1,10 +1,10 @@
-menu "__MODULE_NAME__ options"
+menu "app_wifi_lib options"
 
-config __MODULE_NAME_UPPER__
-    bool "Enable __MODULE_NAME__ Library"
+config APP_WIFI_LIB
+    bool "Enable app_wifi_lib Library"
     default y
     help
-      Enable support for __MODULE_NAME__.
+      Enable support for app_wifi_lib.
 
 
 endmenu

@@ -1,10 +1,10 @@
-#include <__MODULE_NAME__/__MODULE_NAME__.h>
+#include <app_wifi_lib/app_wifi_lib.h>
 #include <zephyr/kernel.h>
 
 int main(void) {
-  __MODULE_NAME___init();
+  app_wifi_lib_init();
 
-  int result = __MODULE_NAME___do_something(21);
+  int result = app_wifi_lib_do_something(21);
   printk("Result = %d\n", result);
 
   while (1) {
