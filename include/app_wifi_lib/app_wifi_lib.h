@@ -1,4 +1,3 @@
-
 #ifndef APP_WIFI_LIB_H_
 #define APP_WIFI_LIB_H_
 
