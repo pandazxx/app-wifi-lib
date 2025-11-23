@@ -7,5 +7,15 @@ config APP_WIFI_LIB
       Enable support for app_wifi_lib.
 
 
+config APP_WIFI_DEFAULT_SSID
+    string "Default ssid to connect to"
+    help
+      The default ssid to connect to
+
+config APP_WIFI_DEFAULT_PSK
+    string "Default PSK"
+    help
+      Default PSK
+
 endmenu
 
